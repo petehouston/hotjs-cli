@@ -1,0 +1,40 @@
+{
+  "name": "hotjs-cli",
+  "version": "1.0.0",
+  "description": "CLI for HotJS latest news and articles.",
+  "author": {
+    "name": "Pete Houston",
+    "email": "contact@petehouston.com",
+    "url": "petehouston.com"
+  },
+  "repository": "https://github.com/petehouston/hotjs-cli.git",
+  "main": "bin/cli.js",
+  "bin": {
+    "hotjs": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava test/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "command",
+    "js",
+    "rss",
+    "cli",
+    "fetch",
+    "json",
+    "command"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "isomorphic-fetch": "^2.2.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2"
+  }
+}
